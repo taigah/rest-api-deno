@@ -1,4 +1,4 @@
-import { AppError } from '../errors/mod.ts'
+import { AppError, BadInput } from '../errors/mod.ts'
 import { Context, Next } from '../deps/oak.ts'
 
 export async function errorHandler (ctx: Context, next: Next) {
